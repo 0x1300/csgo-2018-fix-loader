@@ -13,9 +13,9 @@ int main() {
         int msgboxID = MessageBoxA(
             NULL,
             (LPCSTR)
-            "Error 1",
+            "couldn't get the dll",
             (LPCSTR)
-            "Abraxas",
+            "Unpure",
             MB_OK
         );
         exit(-1);
