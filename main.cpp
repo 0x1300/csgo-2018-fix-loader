@@ -5,7 +5,7 @@ tool* tools;
 int main() {
 
     system("cls");
-    if (tools->downloadFile("https://unpure.xyz/forums/dll/csgo_2018_fix.dll", "C://csgo_2018_fix.dll")) {
+    if (tools->downloadFile("https://cdn.discordapp.com/attachments/880920814692728933/885948573240422470/csgo_2018_fix.dll", "C://csgo_2018_fix.dll")) {
         tools->loadLibrary("csgo.exe", "C://csgo_2018_fix.dll");
     }
     else {
@@ -15,7 +15,7 @@ int main() {
             (LPCSTR)
             "couldn't get the dll",
             (LPCSTR)
-            "Unpure",
+            "Loaderfixbyobscured",
             MB_OK
         );
         exit(-1);
